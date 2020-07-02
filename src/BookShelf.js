@@ -24,7 +24,7 @@ class BookShelf extends Component {
 }
 
 BookShelf.PropTypes = {
-  bookShelf: PropTypes.array.isRequired,
+  bookShelf: PropTypes.array,
   shelfChange: PropTypes.func,
 };
 
